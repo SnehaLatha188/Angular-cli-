@@ -1,0 +1,22 @@
+
+<a routerLink = "/">  back </a>
+
+<h2>
+  Add New Product
+</h2>
+<div class="container">
+  <div class="container2">
+<form id = "formNewProduct" name = "formNewProduct" #listData = "ngForm" (ngSubmit) = "addList(listData.value)"><br>
+  <br>
+  <label>Name:</label><input style="width:300px;" type = "text" name="name" id="name" placeholder="name" ngModel><br>
+  <br>
+  <label>Address: </label><input  style="width:300px;" type = "text" name="address" id="address" placeholder="address" ngModel><br>
+  <br>
+  <label>Email:</label><input style="width:300px;" type="text" name="email" id="email" placeholder="email"ngModel><br>
+  <br>
+  <input type="submit"value = "Add Product">
+</form>
+</div>
+</div>
+<br>
+<h3 *ngIf = "isAdded" >{{confirmationString}}</h3>

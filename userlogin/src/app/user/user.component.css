@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+    margin: 20px;;
+    border: 1px solid rgb(224, 214, 214);
+    box-shadow: 0 0 50px rgb(224, 214, 214);
+-moz-box-shadow: 0 0 50px rgb(224, 214, 214);
+-webkit-box-shadow: 0 0 50px rgb(224, 214, 214);
+-o-box-shadow: 0 0 50px rgb(224, 214, 214);
+padding: 10px;
+}
+.container2{
+    border:1px solid gainsboro;
+   background-color: gainsboro;
+   padding: 10px;
+}
+.box3{
+   border:1px solid rgb(143, 136, 136);
+   padding: 10px;
+   background-color: rgb(123, 135, 175);
+}
+#id2{
+    background-color:rgb(116, 167, 214); 
+    border-radius:5px 5px 5px 5px
+}
+#id3{
+    background-color:rgb(224, 159, 19); 
+    border-radius:5px 5px 5px 5px
+
+}

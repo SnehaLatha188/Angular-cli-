@@ -1,0 +1,28 @@
+{
+  "list": [
+    {
+      "name": "saikiran",
+      "address": "5312 CARNABY ST APT 341",
+      "email": "saikiran.katukala@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Nithin ",
+      "address": "17-24, LNR colony",
+      "email": "nithin@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "pavan",
+      "address": "Kansas",
+      "email": "pavan@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Sneha Latha",
+      "address": "617 caswyck trce, , Atlanta",
+      "email": "ksnehala93@gmail.com",
+      "id": 4
+    }
+  ]
+}
